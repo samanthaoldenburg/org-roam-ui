@@ -98,6 +98,15 @@ export const defaultNoteStyle = {
   div: {
     hyphens: 'auto !important',
   },
+  table: {
+    borderStyle: 'hidden'
+  },
+  'th, tr, td': {
+    padding: '0px 4px',
+    borderWidth: '1px',
+    borderColor: 'gray',
+    borderStyle: 'dashed'
+  },
   '.title': {
     textAlign: 'center',
     marginBottom: '.2em',
@@ -202,15 +211,5 @@ export const defaultNoteStyle = {
   '.math.math-display .katex': {
     overflow: 'auto',
     minHeight: '1.5em'
-  }
-
-  'table': {
-    border-style: 'hidden';
-  }
-  'th, tr, td': {
-    padding: '0px 4px';
-    border-width: '1px';
-    border-color: 'gray';
-    border-style: 'dashed';
   }
 }
