@@ -2,9 +2,6 @@
 # File : cd.yml
 
 name: 'cd'
-on:
-  push:
-    branches: [main]
 defaults:
   run:
     shell: 'bash'
