@@ -203,4 +203,14 @@ export const defaultNoteStyle = {
     overflow: 'auto',
     minHeight: '1.5em'
   }
+
+  'table': {
+    border-style: 'hidden';
+  }
+  'th, tr, td': {
+    padding: '0px 4px';
+    border-width: '1px';
+    border-color: 'gray';
+    border-style: 'dashed';
+  }
 }
