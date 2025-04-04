@@ -49,6 +49,7 @@ jobs:
           git config --global url."https://github.com/".insteadOf ssh://git@github.com/
           git config --global url."https://".insteadOf git://
           git config --global url."https://".insteadOf ssh://
+          export NODE_OPTIONS=--openssl-legacy-provider
           yarn install
           yarn run build
           yarn run export
